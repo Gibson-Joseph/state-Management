@@ -10,7 +10,6 @@ export const getTodos = () => {
           type: "GET_TODO",
           todos,
         });
-        // console.log("Dispatch", todos);
       })
       .catch((error) => {
         console.log(error.response);

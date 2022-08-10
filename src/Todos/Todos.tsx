@@ -6,7 +6,6 @@ const Todos = () => {
   const [todo, setTodo] = useState<any>({
     name: "",
     isCompete: false,
-    // date: "",
   });
   return (
     <>

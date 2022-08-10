@@ -19,7 +19,6 @@ export const ListTodos = (props: any) => {
       {todos.map((todo: any, index: number) => (
         <Todo todo={todos[index]} key={todo.id} setTodo={props.setTodo} />
       ))}
-      {/* <AddTodo /> */}
     </>
   );
 };

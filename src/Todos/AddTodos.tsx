@@ -49,7 +49,6 @@ export const AddTodo = (props: any) => {
             props.setTodo({
               ...props.todo,
               name: e.target.value,
-              // date: new Date(),
             })
           }
         ></input>
